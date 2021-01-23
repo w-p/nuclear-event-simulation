@@ -1,0 +1,25 @@
+.tooltip {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 1rem;
+  padding: 0.3rem 0.5rem;
+  color: white;
+  font-size: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.2rem;
+  background: rgba(0, 0, 0, 0.7);
+  transform: translate(1rem, -50%);
+}
+.container {
+  background: #151719;
+}
+.map {
+  width: 100%;
+  height: auto;
+  display: block;
+}

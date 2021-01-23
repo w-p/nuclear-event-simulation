@@ -1,0 +1,88 @@
+.blast-list,
+.blast-list * {
+  box-sizing: border-box;
+}
+.blast-list {
+  z-index: 9998;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.blast-list-title {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.8);
+}
+.blast-list-items {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.blast-list-title,
+.blast-list-items {
+  width: 100%;
+  color: #ffffff;
+  font-family: Overpass;
+}
+
+.blast-list-items {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.blast-list-header,
+.blast-list-item {
+  padding: 0.5rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.blast-list-item:hover {
+  background: rgba(50, 150, 150, 0.5);
+}
+
+.blast-item-location,
+.blast-item-radius,
+.blast-item-yield {
+  display: flex;
+}
+
+.blast-item-location {
+  width: 25%;
+}
+
+.blast-item-radius {
+  width: 20%;
+}
+
+.blast-item-yield {
+  width: 30%;
+}
+
+.blast-item-deaths {
+  flex-grow: 1;
+}
+
+.blast-item-delete {
+  width: 1rem;
+  height: 1rem;
+  background: red;
+  outline: none;
+  font-weight: 700;
+  text-align: center;
+  border: 1px darkred;
+  border-radius: 0.2rem;
+}
+.blast-item-delete:hover {
+  cursor: pointer;
+  background: darkred;
+}
