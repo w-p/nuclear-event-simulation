@@ -6,7 +6,7 @@ This is a quick and dirty React experiment which models the loss of life for a g
 
 ### Usage
 
-To drop a bomb, hold `ctrl`, click, drag, release.
+To drop a bomb hold `ctrl`, then click and drag. Release at the desired radius.
 
 <p align="center">
   <img width="800" src="./screenshot.png">
@@ -17,11 +17,11 @@ To drop a bomb, hold `ctrl`, click, drag, release.
 You'll need your own MapBox token.
 
 - sign up at [MapBox](https://www.mapbox.com/)
-- go to the [Account](https://account.mapbox.com/)
-- look under **Access Tokens**, copy the token
+- go to the [Account](https://account.mapbox.com/) page
+- look under **Access Tokens** and copy the token
 - create a file in the root of this repo called `.env.local`
 
-It's contents should look like this:
+The contents of `env.local` should look like:
 
 ```
 REACT_APP_TOKEN=<your token here>
