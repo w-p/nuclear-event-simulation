@@ -65,7 +65,7 @@ Then run:
 
 #### Blast Calculations
 
-Extracted the weapons effect simulation page on [MIT Nuclear Weapons Education Project](https://nuclearweaponsedproj.mit.edu/nuclear-weapon-effects-simulations-and-models/nuclear-weapons-blast-effects-calculator) site.
+Extracted from the weapons effect simulation page on [MIT Nuclear Weapons Education Project](https://nuclearweaponsedproj.mit.edu/nuclear-weapon-effects-simulations-and-models/nuclear-weapons-blast-effects-calculator) site.
 
 #### Population Data
 
